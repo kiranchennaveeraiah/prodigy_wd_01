@@ -1,0 +1,64 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Menu Styling */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: #ffffff76;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: #7cbcd7;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fbcefb;
+}
+
+/* Content Styling */
+#content {
+    padding-top: 60px; /* Adjust padding to avoid content being hidden behind the fixed nav */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #f4f4f4;
+    border: 1px solid #4f2424;
+}
+
+/* Scrolled Menu Styling */
+.scrolled {
+    background-color: #222;
+}
